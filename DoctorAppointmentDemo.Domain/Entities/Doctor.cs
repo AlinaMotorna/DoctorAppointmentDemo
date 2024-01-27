@@ -1,4 +1,6 @@
-﻿using MyDoctorAppointment.Domain.Enums;
+﻿using MyDoctorAppointment.Domain.Entities;
+using MyDoctorAppointment.Domain.Enums;
+using System.Xml.Serialization;
 
 namespace MyDoctorAppointment.Domain.Entities
 {
@@ -6,8 +8,14 @@ namespace MyDoctorAppointment.Domain.Entities
     {
         public DoctorTypes DoctorType { get; set; }
 
-        public byte Experience { get; set; }
+        public int ID { get; set; }
 
-        public decimal Salary { get; set; }
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+        public string Experience { get; set; }
+
+        public int Salary { get; set; }
     }
+
 }

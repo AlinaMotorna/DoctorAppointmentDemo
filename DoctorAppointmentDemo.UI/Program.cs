@@ -1,6 +1,7 @@
 ﻿using MyDoctorAppointment.Domain.Entities;
 using MyDoctorAppointment.Service.Interfaces;
 using MyDoctorAppointment.Service.Services;
+using System.Xml.Serialization;
 
 namespace MyDoctorAppointment
 {
